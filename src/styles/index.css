@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  input {
+    @apply border border-gray-400 px-4 py-2 rounded-md transition duration-300 focus:border-gray-600 focus:outline-none;
+  }
+}
+
 /* sm:640, md:768, lg:1024, xl:1280, 2xl:1536 */
 
 /* .nav-lists {
