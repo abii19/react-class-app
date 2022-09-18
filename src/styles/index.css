@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* sm:640, md:768, lg:1024, xl:1280, 2xl:1536 */
+
+/* .nav-lists {
+  display: flex;
+}
+
+@media (max-width: 768px) and (min-width: 500px) {
+  .nav-lists {
+    flex-direction: column !important;
+  }
+}
+@media (min-width: 768px) {
+  .nav-lists {
+    flex-direction: row;
+  }
+} */
+
+/* .text-large {
+  @apply text-xl font-semibold;
+} */
